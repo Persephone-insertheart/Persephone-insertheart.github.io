@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>4.5 CSS Image Gallery</title>
+
+  <style>
+    /*Write your CSS code here*/
+
+    img {
+      height: 100px;
+      width: 100px;
+    }
+
+    h3 {
+      color: white;
+    }
+
+    .circle {
+      border-radius: 50px;
+    }
+
+    .rounded {
+      border-radius: 25px;
+    }
+.filter{
+  filter: contrast(200%);
+
+}
+
+    .border{
+      border-style:groove;
+      border_color:blue;
+    }
+	  body{
+		  background-color: black;
+	  }
+	  a{
+		  color:white;
+	  }
+	  
+  </style>
+
+</head>
+
+<body >
+  <!--Write your HTML code here -->
+<a href="index.html">Home Page</a> <a href="visualdesign.html">Visual Design</a> <a href= "About me.html">About me </a><a href="TBD.html">To Be Determined Page </a><a href ="Digitaldesign.html">Digital Design</a>
+  <h3> These are my 3 favorite flowers </h3>
+
+  <img src="../artifacts/carnations.jpeg" alt="carnations">
+  <img src="../artifacts/es.jpeg" alt="roses">
+  <img src="../artifacts/lillies.jpeg" alt="lillies">
+
+  <h3> Here they are with rounded corners </h3>
+  
+    <img class="rounded" src="../artifacts/carnations.jpeg" alt="carnations">
+  <img class="rounded" src="../artifacts/es.jpeg" alt="roses">
+  <img class="rounded" src="../artifacts/lillies.jpeg" alt="lillies">
+  
+  <h3> Here they are as Circles</h3>
+  
+  <img class="circle" src="../artifacts/carnations.jpeg" alt="carnations">
+  <img class="circle" src="../artifacts/es.jpeg" alt="roses">
+  <img class="circle" src="../artifacts/lillies.jpeg" alt="lillies">
+  
+<h3> Here they are with a black and white filter</h3>
+  
+   <img class="filter" src="../artifacts/carnations.jpeg" alt="carnations">
+  <img class="filter" src="../artifacts/es.jpeg" alt="roses">
+  <img class="filter" src="../artifacts/lillies.jpeg" alt="lillies">
+	
+  <h3> Here they are with a border</h3>
+  
+    <img class="border" src="../artifacts/carnations.jpeg" alt="carnations">
+  <img class="border" src="../artifacts/es.jpeg" alt="roses">
+  <img class="border" src="../artifacts/lillies.jpeg" alt="lillies">
+</body>
+
+</html>
